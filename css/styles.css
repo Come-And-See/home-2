@@ -1,0 +1,223 @@
+:root {
+  --color-text: #434455;
+  --title-color-text: #2e2f42;
+  --footer-color-text: #e7e9fc;
+  --color-title-write: #ffffff;
+  --color-button: #4d5ae5;
+  --color-button-portfolio: #f4f4fd;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-decoration: none;
+  color: var(--title-color-text);
+  letter-spacing: 0.03em;
+}
+.span-logo {
+  color: var(--color-button);
+}
+
+.nav-header {
+  list-style: none;
+}
+.nav-header a {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--title-color-text);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.nav-header a:hover,
+.nav-header a:focus {
+  color: var(--color-button);
+}
+.nav-address {
+  list-style: none;
+}
+
+.nav-address a {
+  line-height: 1.5;
+  color: var(--color-text);
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.nav-address a:hover,
+.nav-address a:focus {
+  color: var(--color-button);
+}
+
+/* Hero Image */
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-title-write);
+}
+
+.order-service {
+  background: var(--color-button);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-service-title {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-title-write);
+}
+
+/* Section 1 */
+.feature {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color-text);
+}
+
+.feature-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+/* Section 2 */
+.working-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--title-color-text);
+}
+.working-list {
+  list-style: none;
+}
+/* Section 3 */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--title-color-text);
+}
+
+.team-list {
+  list-style: none;
+}
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color-text;);
+}
+.team-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+/* Footer */
+.footer-style {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-decoration: none;
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-color-text);
+}
+
+/* Portfolio */
+.filters {
+  list-style: none;
+}
+.filters-button {
+  padding: 12px 24px;
+  background: var(--color-button-portfolio);
+  color: var(--color-button);
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-title-write);
+}
+
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color-text);
+}
+.portfolio-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+/* all */
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
